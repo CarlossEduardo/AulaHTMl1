@@ -7,11 +7,19 @@ and open the template in the editor.
     Created on : 17/04/2019, 19:50:01
     Author     : Aluno
 */
-
-.tabela {
-    border-style: solid;
-    border-width: 2px;
+table{
+	border-collapse: collapse;
 }
+.tabela{
+border: 1px solid black;
+    
+}
+
+.tabela th{
+	background: gray;
+}
+
+
 
 
 .celulas {
@@ -21,13 +29,44 @@ and open the template in the editor.
 tr:hover{
     background-color: aqua;
 }
+.titulo {
+	background-color: darkblue;
+	color: white;
+	margin: 0;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	
+}
+.titulo h1{
+	font-weight: 20px;
+	text-align: center;
+}
 
 .menu {
+	margin: 0px;
     list-style: none;
-    display: inline;
-    padding: 10px;
-    background-color: red;
-    color: white;
-    
-  
+	padding: 15px;
+    background-color: lightskyblue;	
+	margin-left: auto;
+	margin-right: auto;  
 }
+
+.menu > li{
+	    display: inline;
+
+}
+.menu a{
+    color: white;
+	text-decoration: none;
+	padding: 15px;
+	
+}
+.menu a:hover{
+	background-color: white;
+	padding: 15px;
+	color: lightskyblue;
+	font-weight: 15px bolder;
+}
+
+
+
